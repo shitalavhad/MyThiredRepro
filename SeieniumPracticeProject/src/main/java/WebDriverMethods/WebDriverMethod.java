@@ -19,6 +19,7 @@ public class WebDriverMethod {
 		//driver.get("https://www.facebook.com/");
 		openApplication(driver);
 		
+		
 		//how to get the current url of the page
 		//String currentUrl=driver.getCurrentUrl();
 		//System.out.println("Current page url : "+currentUrl);
@@ -42,6 +43,9 @@ public class WebDriverMethod {
 		//Dimension d=new Dimension(500,600);
 		//driver.manage().window().setSize(d);
 		resizeTheBrowser(driver);
+		resizeTheBrowser(driver);
+		resizeTheBrowser(driver);
+		
 		  
 		
 		
