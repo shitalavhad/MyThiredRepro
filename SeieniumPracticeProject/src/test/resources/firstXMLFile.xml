@@ -1,0 +1,38 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+	<suite  name="demoSuite" >
+	<test name="Test1">
+		<classes>
+			<class   name="studyForxmlFile.XML_File_Study">
+			<methods>
+				<include  name="openApplication" />
+				<include name="login" />
+					<include name="verifyMyInfo" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test  name="Test2">
+	<classes>
+		<class   name="studyForxmlFile.XML_File_Study">
+			<methods>
+				<include name="openApplication" />
+				<include name="login" />
+				<include name="myInfoDisplay" />
+			</methods>
+		</class>
+	</classes>
+	</test>
+	<test  name="Test3">
+	<classes>
+		<class   name="studyForxmlFile.XML_File_Study">
+			<methods>
+				<include name="openFaceBookApplication" />
+			</methods>
+		</class>
+		
+	</classes>
+	</test>
+	
+</suite>
