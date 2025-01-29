@@ -101,8 +101,8 @@ public class DataDrivenTesting {
 		int totleRow = utility.getRowCount("Sheet3");
 		int totleCols = utility.getCellCount("Sheet3", 1);
 		
-		Object[] [] data=new Object[totleRow][totleCols];
-		for(int r=1;r<=totleRow;r++)
+		Object [] [] data=new Object[totleRow][totleCols];
+		for(int r=0;r<totleRow;r++)
 		{
 			for(int c=0;c<totleCols;c++)
 			{

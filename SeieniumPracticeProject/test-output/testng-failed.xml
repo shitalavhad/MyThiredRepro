@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="fileUploading.FileUploadingDemo">
+      <class name="bDropDownHandling.DemoDropDownHadling">
         <methods>
-          <include name="validateUploadFile"/>
+          <include name="setup"/>
+          <include name="getOptionFromDropDown"/>
         </methods>
-      </class> <!-- fileUploading.FileUploadingDemo -->
+      </class> <!-- bDropDownHandling.DemoDropDownHadling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
